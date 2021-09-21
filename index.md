@@ -1,8 +1,6 @@
 ---
 permalink: /
-title: Welcome to my docs
+title: error
 ---
 
-# Hello
-
-Welcome to my docs!
+Please scan a code to access the content
