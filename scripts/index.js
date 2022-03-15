@@ -34,7 +34,8 @@ function countdown() {
             '<div>' + s + '<span>Seconds</span></div>';
     } else {
         console.log("timer expired")
-        //location.replace("https://example.com")
+        //This will change urls when it's time to reveal the info
+        location.replace("https://www.youtube.com/watch?v=dKlEpPFq2Ak")
     }
 }
 // Update our timer
