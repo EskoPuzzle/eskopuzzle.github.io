@@ -1,0 +1,79 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #f9f9f9;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+body {
+    margin: 30px auto;
+    padding: 0 30px;
+    font-family: 'Inconsolata', monospace;
+    background-color: #111;
+    color: #c9c9c9;
+}
+
+hr {
+    background-color: #eee;
+    background: #eee;
+    color: #eee;
+}
+
+blockquote {
+    background: rgb(46, 46, 46);
+    border-left: 10px solid rgb(71, 68, 68);
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: none;
+}
+
+blockquote:before {
+    color: rgb(48, 46, 46);
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline;
+}
+
+.timer {
+    text-align: center;
+    padding: 100px 60px;
+    background: #111;
+    font-size: 3em;
+    font-weight: 100;
+    color: white;
+    padding: 20px;
+    width: 700px;
+    color: white;
+}
+
+.timer div {
+    display: inline-block;
+    min-width: 90px;
+    padding: 15px;
+    background: rgb(48, 46, 46);
+    margin: 15px;
+}
+
+.timer div span {
+    color: #ffffff;
+    display: block;
+    margin-top: 15px;
+    font-size: .35em;
+    font-weight: 400;
+}
