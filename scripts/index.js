@@ -6,7 +6,7 @@
 
 function countdown() {
     // Setup a date
-    future = Date.parse("mar 18, 2022 3:00 PM CST");
+    future = Date.parse("mar 18, 2022 14:00 CST");
 
     // Grab the difference between the current date, and the future
     now = new Date();
@@ -20,7 +20,7 @@ function countdown() {
 
     // Make it so they are relative to one another
     d = days;
-    h = hours - days * 24 - 1;
+    h = hours - days * 24;
     m = mins - hours * 60;
     s = secs - mins * 60;
 
@@ -34,8 +34,8 @@ function countdown() {
             '<div>' + s + '<span>Seconds</span></div>';
     } else {
         console.log("timer expired")
-        //This will change urls when it's time to reveal the info
-        location.replace("https://www.youtube.com/watch?v=dKlEpPFq2Ak")
+        //Updated :D
+        location.replace("reveal.html")
     }
 }
 // Update our timer
