@@ -6,7 +6,7 @@
 
 function countdown() {
     // Setup a date
-    future = Date.parse("mar 18, 2022 14:00 CST");
+    future = Date.parse("mar 18, 2022 16:00 CDT");
 
     // Grab the difference between the current date, and the future
     now = new Date();
@@ -39,5 +39,4 @@ function countdown() {
     }
 }
 // Update our timer
-// Paused timer, bomb threat :(
-//setInterval('countdown()', 1000);
+setInterval('countdown()', 1000);
