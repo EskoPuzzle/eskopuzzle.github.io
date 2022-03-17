@@ -39,4 +39,5 @@ function countdown() {
     }
 }
 // Update our timer
-setInterval('countdown()', 1000);
+// Paused timer, bomb threat :(
+//setInterval('countdown()', 1000);
