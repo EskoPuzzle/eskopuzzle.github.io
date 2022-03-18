@@ -82,3 +82,16 @@ a {
     color: #43B581;
     text-decoration: none;
 }
+
+.button {
+    margin: 30px auto;
+    padding: 0 30px;
+    font-family: 'Inconsolata', monospace;
+    background-color: #111;
+    color: #c9c9c9;
+    border: none;
+    border: 1px solid #c9c9c9;
+    border-radius: 0.35rem;
+    padding: 20px;
+    font-size: medium;
+}
