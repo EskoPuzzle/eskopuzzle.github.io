@@ -86,7 +86,7 @@ a {
 .button {
     border: none;
     margin: 30px auto;
-    padding: 0 30px;
+    padding: 30px;
     font-family: 'Inconsolata', monospace;
     background-color: #111;
     color: #c9c9c9;
